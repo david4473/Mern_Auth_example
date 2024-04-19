@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+input[type=text], input[type=password]{
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button[type=submit]{
+  display: block;
+  width: 100%;
+}
+
+button[type=submit]:hover{
+  background-color: rgb(48, 48, 48);
+}
+
+form{
+  width: 250px;
+}
+
+.login h1{
+  text-align: center;
+}
+
+.view{
+  text-align: center;
+}
+
+.view button{
+  margin-right: 15px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
